@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_porkchop"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 25,
+          "max": 25
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:oak_pressure_plate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CanPlaceOn:[\"lime_wool\"]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
