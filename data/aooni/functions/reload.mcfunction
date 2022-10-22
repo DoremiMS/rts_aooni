@@ -4,6 +4,7 @@ scoreboard objectives add game dummy "ゲーム詳細"
 scoreboard objectives add timer dummy "タイマー"
 scoreboard objectives add food food "食料ゲージ"
 scoreboard objectives add random dummy "ランダム関連"
+scoreboard objectives add chest dummy "チェストランダム"
 
 #team
 ##add

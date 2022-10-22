@@ -42,6 +42,17 @@ effect give @a[team=aooni] minecraft:strength 10000 255 true
 effect give @a[team=aooni] resistance 10000 255 true
 effect give @a[team=aooni] invisibility 10000 255 true
 
+#Random Chest
+##1F~4F
+scoreboard players add 1_4_random chest 1
+execute if score 1_4_chest chest matches 21 run scoreboard players set 1_4_random chest 1
+##B1
+scoreboard players add b1_random chest 1
+execute if score b1_chest chest matches 13 run scoreboard players set b1_random chest 1
+
+#Timer_Random
+scoreboard players add time_random timer 1
+execute if score time_random timer matches 6 run scoreboard players set time_random timer 1
 #Finish処理
 ##Import
 ###残り人数
