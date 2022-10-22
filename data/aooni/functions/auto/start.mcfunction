@@ -4,6 +4,7 @@ tag @a remove hiroshi
 tp @a[team=hiroshi] -18 1 6
 
 #timer
+##13 15 17 18.5 20
 execute if score time_random timer matches 1 run scoreboard players set timerT timer 15600
 execute if score time_random timer matches 2 run scoreboard players set timerT timer 18000
 execute if score time_random timer matches 3 run scoreboard players set timerT timer 20400
