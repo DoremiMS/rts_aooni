@@ -14,3 +14,9 @@ execute as @a at @s run playsound entity.experience_orb.pickup master @a ~ ~ ~
 ##1時タグ削除
 tag @a remove aooni_select
 tag @a remove aooni_select_member
+##代入
+scoreboard players operation 1_4 chest = 1_4_random chest
+scoreboard players operation b1 chest = b1_random chest
+scoreboard players operation vending chest = vending_random chest
+function aooni:auto/set_air
+function aooni:auto/set_chest

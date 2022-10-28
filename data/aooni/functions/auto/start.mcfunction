@@ -1,8 +1,10 @@
 title @a title [{"text":"RTS","color":"red"},{"text":" 青鬼","color":"blue"},{"text":" START...","color":"green"}]
+scoreboard players set @a death_announce 0
+scoreboard players set @a death 0
 team join hiroshi @a[tag=hiroshi]
 tag @a remove hiroshi
 tp @a[team=hiroshi] -18 1 6
-
+scoreboard players set ゲーム中 game 1
 #timer
 ##13 15 17 18.5 20
 scoreboard players operation time_random_set timer = time_random timer
