@@ -20,3 +20,8 @@ scoreboard players operation b1 chest = b1_random chest
 scoreboard players operation vending chest = vending_random chest
 function aooni:auto/set_air
 function aooni:auto/set_chest
+#item
+item replace entity @a[team=aooni] armor.head with carved_pumpkin{Unbreakable:1,HideFlags:5,Enchantments:[{id:binding_curse,lvl:1}]}
+item replace entity @a[team=aooni] armor.chest with diamond_chestplate{Unbreakable:1,HideFlags:5,Enchantments:[{id:binding_curse,lvl:1}]}
+item replace entity @a[team=aooni] armor.legs with diamond_leggings{Unbreakable:1,HideFlags:5,Enchantments:[{id:binding_curse,lvl:1}]}
+item replace entity @a[team=aooni] armor.feet with diamond_boots{Unbreakable:1,HideFlags:5,Enchantments:[{id:binding_curse,lvl:1}]}
