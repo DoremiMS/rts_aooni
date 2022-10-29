@@ -220,7 +220,7 @@ execute if score finish_count game matches 1 run scoreboard players add finishti
 execute if score finishtime timer matches 2 run tellraw @a [{"text":"15秒後にTPします。","color":"dark_red"}]
 execute if score finishtime timer matches 300 run tp @a @e[tag=SPAWN_POINT,type=armor_stand,limit=1]
 execute if score finishtime timer matches 300 run gamemode adventure @a
-execute if score finishtime timer matches 301 run scoreboard players set finish_count game 1
+execute if score finishtime timer matches 301 run scoreboard players set finish_count game 0
 execute if score finishtime timer matches 301 run scoreboard players set finishtime timer 0
 
 # Aooni Run
