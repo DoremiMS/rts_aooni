@@ -80,3 +80,5 @@ setblock -54 -5 -4 chest{LootTable:"aooni:chest"} replace
 setblock -62 -5 -29 chest{LootTable:"aooni:chest"} replace
 setblock -85 -3 -5 chest{LootTable:"aooni:chest"} replace
 setblock -96 -5 4 chest{LootTable:"aooni:chest"} replace
+
+kill @e[type=item]
