@@ -93,3 +93,5 @@ setblock -21 24 -20 minecraft:air
 setblock -22 24 -20 minecraft:air
 #B1
 setblock -31 2 13 minecraft:tinted_glass replace
+#setblock -57 1 17
+setblock -53 2 17 blue_concrete
