@@ -98,87 +98,87 @@ execute if score start_vending game matches 0 if block -17 27 -18 lever[powered=
 
 ###miss
 #### 1
-execute if score start_vending game matches 1 if score vending game matches 1 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 1 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 1 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 1 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 1 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 1 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 1 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
 #### 2
-execute if score start_vending game matches 1 if score vending game matches 2 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 2 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 2 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 2 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 2 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 2 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 2 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
 #### 3
-execute if score start_vending game matches 1 if score vending game matches 3 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 3 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 3 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 3 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 3 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 3 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 3 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
 #### 4
-execute if score start_vending game matches 1 if score vending game matches 4 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 4 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 4 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 4 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 4 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 4 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 4 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
 #### 5
-execute if score start_vending game matches 1 if score vending game matches 5 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 5 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 5 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 5 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 5 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 5 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 5 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
 #### 6
-execute if score start_vending game matches 1 if score vending game matches 6 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 6 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 6 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 6 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 6 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 6 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 6 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
 #### 7
-execute if score start_vending game matches 1 if score vending game matches 7 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 7 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 7 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 7 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 7 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 7 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 7 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/miss_vending
 #### 8
-execute if score start_vending game matches 1 if score vending game matches 8 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 8 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 8 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 8 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 8 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 8 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
-execute if score start_vending game matches 1 if score vending game matches 8 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/miss_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/miss_vending
 
 ### hit
 #### 1
-execute if score start_vending game matches 1 if score vending game matches 1 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 1 if block -42 -5 46 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/hit_vending
 #### 2
-execute if score start_vending game matches 1 if score vending game matches 1 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 2 if block -84 -5 -22 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_2,limit=1] as @p run function aooni:auto/hit_vending
 #### 3
-execute if score start_vending game matches 1 if score vending game matches 1 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 3 if block -28 2 20 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_3,limit=1] as @p run function aooni:auto/hit_vending
 #### 4
-execute if score start_vending game matches 1 if score vending game matches 1 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 4 if block -57 2 15 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_4,limit=1] as @p run function aooni:auto/hit_vending
 #### 5
-execute if score start_vending game matches 1 if score vending game matches 1 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 5 if block -13 2 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_5,limit=1] as @p run function aooni:auto/hit_vending
 #### 6
-execute if score start_vending game matches 1 if score vending game matches 1 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_1,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 6 if block 17 8 -13 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_6,limit=1] as @p run function aooni:auto/hit_vending
 #### 7
-execute if score start_vending game matches 1 if score vending game matches 1 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 7 if block 1 14 -5 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_7,limit=1] as @p run function aooni:auto/hit_vending
 #### 8
-execute if score start_vending game matches 1 if score vending game matches 1 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/hit_vending
+execute if score start_vending game matches 1 if score vending chest matches 8 if block -29 20 -3 stone_button[powered=true] run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/hit_vending
 
 ##open door
 execute if block -15 26 -27 minecraft:oak_pressure_plate[powered=true] run setblock -21 24 -34 minecraft:redstone_block
@@ -220,6 +220,7 @@ execute if score finish_count game matches 1 run scoreboard players add finishti
 execute if score finishtime timer matches 2 run tellraw @a [{"text":"15秒後にTPします。","color":"dark_red"}]
 execute if score finishtime timer matches 300 run tp @a @e[tag=SPAWN_POINT,type=armor_stand,limit=1]
 execute if score finishtime timer matches 300 run gamemode adventure @a
+execute if score finishtime timer matches 300 run function aooni:reset
 execute if score finishtime timer matches 301 run scoreboard players set finish_count game 0
 execute if score finishtime timer matches 301 run scoreboard players set finishtime timer 0
 
