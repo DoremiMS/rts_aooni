@@ -1,3 +1,4 @@
+scoreboard players set @s stoneButtonPresses 0
 effect give @s blindness 10 4 true
 effect give @s glowing 10 255 true
 tellraw @s [{"text":"この自販機はハズレのようだ..."}]

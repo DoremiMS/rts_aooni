@@ -34,7 +34,7 @@ execute if score vending chest matches 6 run fill 18 11 -13 18 11 -14 cyan_carpe
 execute if score vending chest matches 7 run fill 1 17 -4 2 17 -4 cyan_carpet replace
 ## 8
 execute if score vending chest matches 8 run fill -30 23 -2 -30 23 -3 cyan_carpet replace
-
+scoreboard players set @s stoneButtonPresses 0
 tellraw @s [{"text":"この自動販売機は当たりのものだ！"}]
 tellraw @a[team=!aooni] [{"text":"5Fの扉が空いた..."}]
 setblock -21 24 -20 minecraft:redstone_torch
