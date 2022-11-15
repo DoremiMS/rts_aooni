@@ -9,6 +9,7 @@ scoreboard objectives add deathcount deathCount "死亡状況"
 scoreboard objectives add death_announce deathCount "死亡アナウンス"
 scoreboard objectives add have_key dummy "脱出の鍵取得者"
 scoreboard objectives add stoneButtonPresses dummy "石ボタン検知"
+scoreboard objectives add kill_skeleton minecraft.killed:minecraft.skeleton
 scoreboard players set 0 timer 0
 scoreboard players set 20 timer 20
 scoreboard players set 1200 timer 1200
