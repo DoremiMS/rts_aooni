@@ -234,6 +234,12 @@ execute as @a at @s if block ~ ~-1 ~ infested_mossy_stone_bricks if predicate ao
 # Aooni Run
 execute as @a[team=aooni] at @s if block ~ ~-1 ~ minecraft:soul_soil run effect give @s speed 2 4 true
 
+# Revive Skeleton
+## tp
+execute as @a[scores={kill_skeleton=1..}] run tp @s -100 69 -82
+## score reset
+execute as @a[scores={kill_skeleton=1..}] run scoreboard players set @s kill_skeleton 0
+
 #Finish処理
 ##Import
 ###残り人数
