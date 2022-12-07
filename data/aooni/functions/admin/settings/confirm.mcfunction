@@ -1,0 +1,5 @@
+execute if score gamemode game matches 1 run tellraw @a [{"text":"ゲームモード:","color":"yellow"},{"text":"探索型","color":"green"}]
+execute if score difficult game matches 0 run tellraw @a [{"text":"難易度:","color":"green"},{"text":"イージー","color":"aqua"}]
+execute if score difficult game matches 1 run tellraw @a [{"text":"難易度:","color":"green"},{"text":"ノーマル","color":"blue"}]
+execute if score add_aooni game matches 0 run tellraw @a [{"text":"青鬼追加:","color":"aqua"},{"text":"off","color":"white"}]
+execute if score add_aooni game matches 1 run tellraw @a [{"text":"青鬼追加:","color":"aqua"},{"text":"on","color":"yellow"}]
