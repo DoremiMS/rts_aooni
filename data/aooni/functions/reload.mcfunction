@@ -10,6 +10,8 @@ scoreboard objectives add death_announce deathCount "死亡アナウンス"
 scoreboard objectives add have_key dummy "脱出の鍵取得者"
 scoreboard objectives add stoneButtonPresses dummy "石ボタン検知"
 scoreboard objectives add kill_skeleton minecraft.killed:minecraft.skeleton
+scoreboard objectives add players dummy "ゲーム詳細"
+
 scoreboard players set 0 timer 0
 scoreboard players set 20 timer 20
 scoreboard players set 1200 timer 1200
@@ -40,5 +42,11 @@ team modify death color gray
 team modify death friendlyFire false
 team modify death nametagVisibility hideForOtherTeams
 team modify death seeFriendlyInvisibles false
+###escape
+team modify escape collisionRule never
+team modify escape color aqua
+team modify escape friendlyFire false
+team modify escape nametagVisibility hideForOtherTeams
+team modify escape seeFriendlyInvisibles false
 
 gamerule showDeathMessages false
