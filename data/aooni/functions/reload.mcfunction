@@ -11,7 +11,12 @@ scoreboard objectives add have_key dummy "脱出の鍵取得者"
 scoreboard objectives add stoneButtonPresses dummy "石ボタン検知"
 scoreboard objectives add kill_skeleton minecraft.killed:minecraft.skeleton
 scoreboard objectives add players dummy "ゲーム詳細"
-
+scoreboard objectives add open_chest minecraft.custom:open_chest
+scoreboard objectives add open_chest-4 dummy "チェスト開放状況-4F"
+scoreboard objectives add open_chest-3 dummy "チェスト開放状況-3F"
+scoreboard objectives add open_chest-2 dummy "チェスト開放状況-2F"
+scoreboard objectives add open_chest-1 dummy "チェスト開放状況-4F"
+scoreboard objectives add open_chest-b1 dummy "チェスト開放状況-B1"
 scoreboard players set 0 timer 0
 scoreboard players set 20 timer 20
 scoreboard players set 1200 timer 1200

@@ -72,11 +72,11 @@ execute if score time_random_set timer matches 4 if score timerT timer matches 1
 execute if score time_random_set timer matches 5 if score timerT timer matches 14400 run function aooni:auto/open/5f
 
 #Add_Aooni
-execute if score add_aooni game matches 1 if score time_random_set timer matches 1 if score timerT timer matches 7200 run execute if entity @a[team=death] as @r[team=death] run function aooni:auto/game/add_aooni
-execute if score add_aooni game matches 1 if score time_random_set timer matches 2 if score timerT timer matches 9000 run execute if entity @a[team=death] as @r[team=death] run function aooni:auto/game/add_aooni
-execute if score add_aooni game matches 1 if score time_random_set timer matches 3 if score timerT timer matches 10200 run execute if entity @a[team=death] as @r[team=death] run function aooni:auto/game/add_aooni
-execute if score add_aooni game matches 1 if score time_random_set timer matches 4 if score timerT timer matches 11100 run execute if entity @a[team=death] as @r[team=death] run function aooni:auto/game/add_aooni
-execute if score add_aooni game matches 1 if score time_random_set timer matches 5 if score timerT timer matches 12000 run execute if entity @a[team=death] as @r[team=death] run function aooni:auto/game/add_aooni
+execute if score add_aooni game matches 1 if score time_random_set timer matches 1 if score timerT timer matches 7200 run execute as @r[team=death] run function aooni:auto/game/add_aooni
+execute if score add_aooni game matches 1 if score time_random_set timer matches 2 if score timerT timer matches 9000 run execute as @r[team=death] run function aooni:auto/game/add_aooni
+execute if score add_aooni game matches 1 if score time_random_set timer matches 3 if score timerT timer matches 10200 run execute as @r[team=death] run function aooni:auto/game/add_aooni
+execute if score add_aooni game matches 1 if score time_random_set timer matches 4 if score timerT timer matches 11100 run execute as @r[team=death] run function aooni:auto/game/add_aooni
+execute if score add_aooni game matches 1 if score time_random_set timer matches 5 if score timerT timer matches 12000 run execute as @r[team=death] run function aooni:auto/game/add_aooni
 
 #Death_announce
 execute as @a[scores={death_announce=1..},team=!death] run tellraw @a [{"selector":"@s"},{"text":"が青鬼に食べられた","color":"blue"}]
@@ -209,6 +209,9 @@ execute if score 5f_6_open_door game matches 0 run setblock -22 24 -50 red_wool
 
 # Escape Key
 execute as @a store result score @s have_key run clear @s light_blue_dye 0
+
+# Game System
+execute if score gamemode game matches 2 if score ゲーム中 game matches 1 run function aooni:auto/game/system/open_allchest
 
 # Finish
 execute if score timerT timer matches 100 run title @a title [{"text":"5"}]
