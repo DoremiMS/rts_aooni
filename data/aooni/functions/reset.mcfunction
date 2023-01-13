@@ -97,3 +97,4 @@ setblock -31 2 13 minecraft:tinted_glass replace
 setblock -53 2 17 blue_concrete
 #scoreboard
 scoreboard players set start_vending game 0
+scoreboard players set 5f_6_open_door game 0
