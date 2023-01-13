@@ -98,3 +98,15 @@ setblock -53 2 17 blue_concrete
 #scoreboard
 scoreboard players set start_vending game 0
 scoreboard players set 5f_6_open_door game 0
+
+scoreboard objectives remove open_chest-4
+scoreboard objectives remove open_chest-3
+scoreboard objectives remove open_chest-2
+scoreboard objectives remove open_chest-1
+scoreboard objectives remove open_chest-b1
+scoreboard objectives remove have_b1_key
+scoreboard objectives remove have_5f_key
+
+effect clear @a
+
+function aooni:reload
