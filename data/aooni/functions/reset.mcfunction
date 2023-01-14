@@ -111,7 +111,7 @@ effect clear @a
 
 tag @a remove chest_4-1
 tag @a remove chest_4-2
-tag @a remove chest_4-2
+tag @a remove chest_4-3
 tag @a remove chest_3-1
 tag @a remove chest_3-2
 tag @a remove chest_3-3
