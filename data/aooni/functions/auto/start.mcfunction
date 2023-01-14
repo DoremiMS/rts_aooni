@@ -1,6 +1,13 @@
 title @a title [{"text":"RTS","color":"red"},{"text":" 青鬼","color":"blue"},{"text":" START...","color":"green"}]
 scoreboard players set @a death_announce 0
 scoreboard players set @a death 0
+scoreboard players set @a open_chest-b1 0
+scoreboard players set @a open_chest-1 0
+scoreboard players set @a open_chest-2 0
+scoreboard players set @a open_chest-3 0
+scoreboard players set @a open_chest-4 0
+scoreboard players set @s have_5f_key 0
+scoreboard players set @s have_b1_key 0
 team join hiroshi @a[tag=hiroshi]
 tag @a remove hiroshi
 tp @a[team=hiroshi] -18 1 6
