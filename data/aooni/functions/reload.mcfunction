@@ -10,6 +10,7 @@ scoreboard objectives add death_announce deathCount "死亡アナウンス"
 scoreboard objectives add have_key dummy "脱出の鍵取得者"
 scoreboard objectives add stoneButtonPresses dummy "石ボタン検知"
 scoreboard objectives add kill_skeleton minecraft.killed:minecraft.skeleton
+scoreboard objectives add kill_slime minecraft.killed:minecraft.slime
 scoreboard objectives add players dummy "ゲーム詳細"
 scoreboard objectives add open_chest minecraft.custom:open_chest
 scoreboard objectives add open_chest-4 dummy "チェスト開放状況-4F"

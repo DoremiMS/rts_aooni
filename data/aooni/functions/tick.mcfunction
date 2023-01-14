@@ -245,11 +245,13 @@ execute as @a at @s if block ~ ~-1 ~ infested_mossy_stone_bricks if predicate ao
 # Aooni Run
 execute as @a[team=aooni] at @s if block ~ ~-1 ~ minecraft:soul_soil run effect give @s speed 2 4 true
 
-# Revive Skeleton
+# Revive Slime
+scoreboard players add slime timer 1
+execute if score slime timer matches 100.. run function aooni:auto/summon_slime
 ## tp
-execute as @a[scores={kill_skeleton=1..}] run tp @s -100 69 -82
+execute as @a[scores={kill_slime=1..}] run tp @s -100 69 -82
 ## score reset
-execute as @a[scores={kill_skeleton=1..}] run scoreboard players set @s kill_skeleton 0
+execute as @a[scores={kill_slime=1..}] run scoreboard players set @s kill_slime 0
 
 #Finish処理
 ##Import
