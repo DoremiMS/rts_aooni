@@ -109,4 +109,38 @@ scoreboard objectives remove have_5f_key
 
 effect clear @a
 
+tag @a remove chest_4-1
+tag @a remove chest_4-2
+tag @a remove chest_4-2
+tag @a remove chest_3-1
+tag @a remove chest_3-2
+tag @a remove chest_3-3
+tag @a remove chest_2-1
+tag @a remove chest_2-2
+tag @a remove chest_2-3
+tag @a remove chest_2-4
+tag @a remove chest_1-1
+tag @a remove chest_1-2
+tag @a remove chest_1-3
+tag @a remove chest_1-4
+tag @a remove chest_1-5
+tag @a remove chest_1-6
+tag @a remove chest_1-7
+tag @a remove chest_1-8
+tag @a remove chest_1-9
+tag @a remove chest_1-10
+tag @a remove chest_b1-1
+tag @a remove chest_b1-2
+tag @a remove chest_b1-3
+tag @a remove chest_b1-4
+tag @a remove chest_b1-5
+tag @a remove chest_b1-6
+tag @a remove chest_b1-7
+tag @a remove chest_b1-8
+tag @a remove chest_b1-9
+tag @a remove chest_b1-10
+tag @a remove chest_b1-11
+tag @a remove chest_b1-12
+
+
 function aooni:reload
