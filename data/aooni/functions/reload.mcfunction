@@ -7,12 +7,14 @@ scoreboard objectives add random dummy "ランダム関連"
 scoreboard objectives add chest dummy "チェストランダム"
 scoreboard objectives add deathcount deathCount "死亡状況"
 scoreboard objectives add death_announce deathCount "死亡アナウンス"
+scoreboard objectives add deathcount_athle deathCount "アスレ者の死亡"
 scoreboard objectives add have_key dummy "脱出の鍵取得者"
 scoreboard objectives add stoneButtonPresses dummy "石ボタン検知"
 scoreboard objectives add kill_skeleton minecraft.killed:minecraft.skeleton
 scoreboard objectives add kill_slime minecraft.killed:minecraft.slime
 scoreboard objectives add players dummy "ゲーム詳細"
 scoreboard objectives add open_chest minecraft.custom:open_chest
+scoreboard objectives add give_bow dummy
 scoreboard objectives add open_chest-4 dummy "チェスト開放状況-4F"
 scoreboard objectives add open_chest-3 dummy "チェスト開放状況-3F"
 scoreboard objectives add open_chest-2 dummy "チェスト開放状況-2F"
@@ -56,7 +58,6 @@ team modify escape color aqua
 team modify escape friendlyFire false
 team modify escape nametagVisibility hideForOtherTeams
 team modify escape seeFriendlyInvisibles false
-
 gamerule showDeathMessages false
 
 ## summon armor_stand

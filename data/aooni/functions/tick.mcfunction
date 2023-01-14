@@ -252,6 +252,8 @@ execute if score slime timer matches 100.. run function aooni:auto/summon_slime
 execute as @a[scores={kill_slime=1..}] run tp @s -100 69 -82
 ## score reset
 execute as @a[scores={kill_slime=1..}] run scoreboard players set @s kill_slime 0
+scoreboard players set @a[scores={deathcount_athle=1..}] give_bow 0
+scoreboard players set @a deathcount_athle 0
 
 #Finish処理
 ##Import
@@ -263,3 +265,10 @@ execute if score 残り人数 players matches 0 if score ゲーム中 game match
 
 data merge entity @e[type=item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:light_blue_dye",Count:1b}}] {PickupDelay:0s}
 
+kill @e[nbt={Item:{id:"minecraft:slime_ball"}}]
+kill @e[nbt={Item:{id:"minecraft:oak_pressure_plate"}}]
+kill @e[nbt={Item:{id:"minecraft:blue_wool"}}]
+kill @e[type=experience_orb]
+clear @a[team=aooni] blue_wool
+clear @a[team=aooni] oak_pressure_plate
+clear @a[team=aooni] cooked_porkchop
