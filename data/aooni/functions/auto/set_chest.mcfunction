@@ -19,7 +19,7 @@ execute if score gamemode game matches 1 if score 1_4 chest matches 9 run setblo
 execute if score gamemode game matches 1 if score 1_4 chest matches 10 run setblock -40 8 6 chest{LootTable:"aooni:1_4"} keep
 ### 1F
 execute if score gamemode game matches 1 if score 1_4 chest matches 11 run setblock -33 2 38 chest{LootTable:"aooni:1_4"} keep
-execute if score gamemode game matches 1 if score 1_4 chest matches 12 run setblock -32 -1 38 chest{LootTable:"aooni:1_4"} keep
+execute if score gamemode game matches 1 if score 1_4 chest matches 12 run setblock -36 2 -3 chest{LootTable:"aooni:1_4"} keep
 execute if score gamemode game matches 1 if score 1_4 chest matches 13 run setblock -40 4 32 chest{LootTable:"aooni:1_4"} keep
 execute if score gamemode game matches 1 if score 1_4 chest matches 14 run setblock -36 -2 -3 chest{LootTable:"aooni:1_4"} keep
 execute if score gamemode game matches 1 if score 1_4 chest matches 15 run setblock -41 3 8 chest{LootTable:"aooni:1_4"} keep
@@ -44,7 +44,7 @@ setblock -35 7 -30 chest{LootTable:"aooni:chest"} keep
 setblock -40 8 6 chest{LootTable:"aooni:chest"} keep
 # 1F
 setblock -33 2 38 chest{LootTable:"aooni:chest"} keep
-setblock -32 -1 38 chest{LootTable:"aooni:chest"} keep
+setblock -36 2 -3 chest{LootTable:"aooni:chest"} keep
 setblock -40 4 32 chest{LootTable:"aooni:chest"} keep
 setblock -36 -2 -3 chest{LootTable:"aooni:chest"} keep
 setblock -41 3 8 chest{LootTable:"aooni:chest"} keep

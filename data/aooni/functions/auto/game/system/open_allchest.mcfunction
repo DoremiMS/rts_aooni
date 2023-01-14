@@ -83,5 +83,5 @@ scoreboard players set @a open_chest 0
 execute as @a at @s run title @s[team=!aooni] actionbar ["",{"text":"\u30c1\u30a7\u30b9\u30c8\u60c5\u5831: B1:"},{"score":{"name":"@s","objective":"open_chest-b1"}},{"text":"/12  1F:"},{"score":{"name":"@s","objective":"open_chest-1"}},{"text":"/10  2F:"},{"score":{"name":"@s","objective":"open_chest-2"}},{"text":"/4  3F:"},{"score":{"name":"@s","objective":"open_chest-3"}},{"text":"/3  4F:"},{"score":{"name":"@s","objective":"open_chest-4"}},{"text":"/3"}]
 
 #Give Keys
-execute as @a at @s if score @s open_chest-1 matches 10 if score @s open_chest-2 matches 4 if score @s open_chest-3 matches 3 if score @s open_chest-4 matches 4 if score @s have_b1_key matches 0 run function aooni:auto/game/system/give_b1_keys
+execute as @a at @s if score @s open_chest-1 matches 10 if score @s open_chest-2 matches 4 if score @s open_chest-3 matches 3 if score @s open_chest-4 matches 3 if score @s have_b1_key matches 0 run function aooni:auto/game/system/give_b1_keys
 execute as @a at @s if score @s open_chest-b1 matches 12 if score @s have_5f_key matches 0 run function aooni:auto/game/system/give_5f_keys
