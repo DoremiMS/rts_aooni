@@ -1,5 +1,5 @@
 title @a title [{"text":"終"},{"text":"了","color":"blue"}]
-title @a subtitle [{"text":"GAME END"}]
+title @a subtitle [{"text":"GAME END","color":"green"}]
 scoreboard players set finish_count game 1
 scoreboard players set ゲーム中 game 0
 scoreboard players set timerT timer -1

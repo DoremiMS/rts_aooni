@@ -13,6 +13,8 @@ tag @a remove hiroshi
 tp @a[team=hiroshi] -18 1 6
 scoreboard players set ゲーム中 game 1
 fill -205 77 -74 -205 77 -65 air replace
+gamemode adventure @a
+clear @a[team=hiroshi]
 #timer
 ##13 15 17 18.5 20
 scoreboard players operation time_random_set timer = time_random timer
