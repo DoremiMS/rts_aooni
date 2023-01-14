@@ -258,3 +258,6 @@ execute store result score 全体人数 players if entity @a
 execute store result score 残り人数 players if entity @a[team=hiroshi]
 ###Finish
 execute if score 残り人数 players matches 0 if score ゲーム中 game matches 1 run function aooni:auto/finish
+
+data merge entity @e[type=item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:light_blue_dye",Count:1b}}] {PickupDelay:0s}
+
