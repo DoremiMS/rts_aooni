@@ -8,5 +8,5 @@ difficulty normal
 
 scoreboard players set @a kill_skeleton 0
 scoreboard players set @a stoneButtonPresses 0
-scoreboard players set @a have_b1_key 1
-scoreboard players set @a have_5f_key 1
+scoreboard players set @a have_b1_key 0
+scoreboard players set @a have_5f_key 0
