@@ -74,9 +74,9 @@ execute if entity @e[type=armor_stand,tag=chest_2-3] run summon armor_stand -35 
 execute if entity @e[type=armor_stand,tag=chest_2-4] run summon armor_stand -40 8 6 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_2-4]}
 # 1F
 execute if entity @e[type=armor_stand,tag=chest_1-1] run summon armor_stand -33 2 38 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-1]}
-execute if entity @e[type=armor_stand,tag=chest_1-2] run summon armor_stand -36 2 -3 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-2]}
+execute if entity @e[type=armor_stand,tag=chest_1-2] run summon armor_stand -32 -1 38 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-2]}
 execute if entity @e[type=armor_stand,tag=chest_1-3] run summon armor_stand -40 4 32 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-3]}
-execute if entity @e[type=armor_stand,tag=chest_1-4] run summon armor_stand -36 -2 -3 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-4]}
+execute if entity @e[type=armor_stand,tag=chest_1-4] run summon armor_stand -36 2 -3 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-4]}
 execute if entity @e[type=armor_stand,tag=chest_1-5] run summon armor_stand -41 3 8 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-5]}
 execute if entity @e[type=armor_stand,tag=chest_1-6] run summon armor_stand -53 1 8 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-6]}
 execute if entity @e[type=armor_stand,tag=chest_1-7] run summon armor_stand -61 3 3 {Invisible:1b,NoGravity:1b,Marker:1b,Tags:[chest_1-7]}
