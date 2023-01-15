@@ -265,6 +265,13 @@ execute if score 残り人数 players matches 0 if score ゲーム中 game match
 
 data merge entity @e[type=item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:light_blue_dye",Count:1b}}] {PickupDelay:0s}
 
+execute as @a[team=aooni] at @s if score @s use_carrot matches 1.. run function aooni:auto/tp/give
+execute as @a[team=aooni] at @s if score @s use_carrot matches 1.. unless data entity @s {Inventory:[{Slot:3b}]} run function aooni:auto/tp/tp_1
+execute as @a[team=aooni] at @s if score @s use_carrot matches 1.. unless data entity @s {Inventory:[{Slot:4b}]} run function aooni:auto/tp/tp_2
+execute as @a[team=aooni] at @s if score @s use_carrot matches 1.. unless data entity @s {Inventory:[{Slot:5b}]} run function aooni:auto/tp/tp_3
+execute as @a[team=aooni] if score aooni_tp timer matches ..3600 run scoreboard players add aooni_tp timer 1
+execute as @a[team=aooni] if score aooni_tp timer matches 3600 run give @s carrot_on_a_stick{display:{Name:"\"TP玉\""}}
+
 kill @e[nbt={Item:{id:"minecraft:slime_ball"}}]
 kill @e[nbt={Item:{id:"minecraft:oak_pressure_plate"}}]
 kill @e[nbt={Item:{id:"minecraft:blue_wool"}}]

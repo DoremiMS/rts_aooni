@@ -22,6 +22,7 @@ scoreboard objectives add open_chest-1 dummy "チェスト開放状況-4F"
 scoreboard objectives add open_chest-b1 dummy "チェスト開放状況-B1"
 scoreboard objectives add have_b1_key dummy "地下室の鍵取得者"
 scoreboard objectives add have_5f_key dummy "5Fの鍵取得者"
+scoreboard objectives add use_carrot minecraft.used:minecraft.carrot_on_a_stick "青鬼tp玉"
 scoreboard players set 0 timer 0
 scoreboard players set 20 timer 20
 scoreboard players set 1200 timer 1200
