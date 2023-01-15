@@ -275,8 +275,12 @@ execute as @a[team=aooni] if score aooni_tp timer matches 3600 run give @s carro
 kill @e[nbt={Item:{id:"minecraft:slime_ball"}}]
 kill @e[nbt={Item:{id:"minecraft:oak_pressure_plate"}}]
 kill @e[nbt={Item:{id:"minecraft:blue_wool"}}]
+<<<<<<< HEAD
 kill @e[nbt={Item:{id:"minecraft:egg"}}]
 kill @e[type=chicken]
+=======
+kill @e[nbt={Item:{id:"minecraft:light_blue_dye"}}]
+>>>>>>> fd27d56913b069347db4e0ceecddd83117ced7ea
 kill @e[type=experience_orb]
 clear @a[team=aooni] blue_wool
 clear @a[team=aooni] oak_pressure_plate
