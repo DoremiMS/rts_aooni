@@ -16,6 +16,7 @@ fill -205 77 -74 -205 77 -65 air replace
 gamemode adventure @a
 clear @a[team=hiroshi]
 scoreboard players set aooni_tp timer 3500
+gamerule fallDamage true
 #timer
 ##13 15 17 18.5 20
 scoreboard players operation time_random_set timer = time_random timer

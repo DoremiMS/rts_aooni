@@ -9,3 +9,4 @@ team leave @a
 effect clear @s
 difficulty peaceful
 clear @a
+gamerule fallDamage false
