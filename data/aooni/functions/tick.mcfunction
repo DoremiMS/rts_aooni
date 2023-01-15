@@ -188,6 +188,8 @@ execute if score start_vending game matches 1 if score vending chest matches 7 i
 #### 8
 execute if score start_vending game matches 1 if score vending chest matches 8 if block -29 20 -3 stone_button[powered=true] as @a if score @s stoneButtonPresses matches 1 as @a if score @s stoneButtonPresses matches 1 run execute at @e[type=armor_stand,tag=vending_8,limit=1] as @p run function aooni:auto/vending/hit
 
+execute as @a at @s run scoreboard players set @s stoneButtonPresses 0
+
 ##open door
 execute if block -15 26 -27 minecraft:oak_pressure_plate[powered=true] run setblock -21 24 -34 minecraft:redstone_block
 execute if block -15 26 -27 minecraft:oak_pressure_plate[powered=false] run setblock -21 24 -34 minecraft:red_wool
